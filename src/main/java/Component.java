@@ -5,9 +5,17 @@ public abstract class Component {
 
     public Component(String make, String model) {
         this.make = make;
-        this.make = model;
+        this.model = model;
     }
 
-    
+    public String getMake() {
+        return this.make;
+    }
+
+    public String getModel() {
+        return this.model;
+    }
+
+
 
 }
